@@ -11,6 +11,7 @@ end
 
 group :development do # added
 	gem 'sqlite3'
+	gem 'friendly_id', '~> 4.0.10'
 end
 
 
@@ -27,6 +28,12 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'faker'
+gem 'devise'
+gem 'redcarpet'
+gem 'skeleton-rails'
+gem 'markdown_preview'
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
