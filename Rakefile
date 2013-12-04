@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Virtualpedia::Application.load_tasks
+AromaPreschool::Application.load_tasks
