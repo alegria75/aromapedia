@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-AromaPreschool::Application.load_tasks
+AromaPedia::Application.load_tasks
