@@ -1,6 +1,11 @@
-<h1>Articles</h1>
+<h1>Essential Oils</h1>
 
-<% @articles.each do |article| %>
+<% @articles.each do |letter, articlewithletter| %> <%# for each instance of an article i'm go to organize by letter and by first letter in article%> 
+
+<% articlewithletter.each do |article| %> <%# for each iteration of block article with articlewithletter do... %>
     <p><%= link_to article.title, article %></p>
 
 <% end %>
+<% end %>
+
+
